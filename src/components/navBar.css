@@ -1,0 +1,67 @@
+.nav{
+    margin-top: 00px;
+    display: inline-flex;
+    padding: 10px;
+    margin-left: -100px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;    
+}
+
+
+.menu{
+ display: flex;
+ padding: 0px 334px 0px 23px;
+ justify-content: center;
+ align-items: center;
+ gap: 80px;
+ margin-right: 0px;
+
+}
+
+
+.logo{
+    color: #FFF;
+    font-family: Lora;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 100px;
+
+    text-shadow: 2px 3px 1px rgb(83, 67, 141);
+}
+
+.logo span{
+    color: #F00;
+    font-family: Lora;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.menu h2{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 5px;
+    text-shadow: -2px 2px 8px rgb(108, 83, 177);
+
+    transition: 3s;
+
+}
+
+.menu h2:hover{
+    text-decoration: underline 1px;
+    
+}
+
+.nav img{
+    margin-left: -100px;
+    width: 40.036px;
+    height: 40.036px;
+}

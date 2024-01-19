@@ -1,0 +1,46 @@
+.foota{
+
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    width: 1440px;
+    gap: 400px;
+    height: 100px;
+    margin-top: 2100px;
+    background-color: black;
+    color: white;
+}
+
+
+.footaText{
+    margin-top: 10px;
+    display: flex;
+    gap: 300px;
+
+    margin-left: 0px;
+}
+
+.footaText h3{
+    margin-top: 25px;
+
+}
+
+.footaText h2{
+        text-shadow: 2px 2px 1px rgb(83, 67, 141);
+
+}
+span{
+    color: red;
+    font-size: 1.2rem;
+}
+
+
+
+.foota img{
+    margin-right: 20px;
+    margin-top: 35px;
+   justify-content: space-between;
+   height: 25px;
+}

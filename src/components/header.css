@@ -1,0 +1,186 @@
+.container{
+  width: 1440px;
+  height: 676px;
+  flex-shrink: 0;
+  position: absolute;
+
+  background: linear-gradient(251deg, #000 43.92%, rgba(46, 46, 46, 0.99) 56.86%);
+
+  /*  While hovering */
+  
+  /* Animate: Dissolve; */
+  animation-timing-function: ease-out;
+  animation-duration: 500ms;
+
+}
+
+
+.greet{
+
+  display: flex;
+  background: none;
+  margin: 80px 0px 30px 50px;
+  width: 100%;
+}
+
+
+
+.copy{
+  position: relative;
+  margin-top: 100px;
+  height: 60%;
+}
+
+.line1 {
+  position: relative;
+    width: 300px;
+    height: 2.5px;
+    left: -50.5px;
+    flex-shrink: 4;
+    stroke-width: 2px;
+    stroke: #ebebeb;
+    background: #b5b6b6;
+
+
+}
+
+.content{
+  color: #FFF;
+
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  
+  width: 552px;
+}
+
+.line2{
+  background: #b5b6b6;
+  width: 255px;
+  height: 2.5px;
+  margin-left: 295px;
+
+}
+
+.btn{
+  position: absolute;
+  margin-left: -20px;
+  margin-top: -18px;
+  display: inline-flex;
+  padding: 4px 0px;
+  justify-content: center;
+  align-items: center;
+  /* gap: 5px; */
+  border: 0px none;
+  background-color: #b5b6b6;
+  border-radius: 9px;
+
+  box-shadow: -4px 3px 3px  rgb(26, 23, 23);
+  transition: .5s;
+
+  height: 30px;
+  width:  120px;
+
+}
+.btn button{
+  background: #b5b6b6;
+  font-size: 1rem;
+  color: #000;
+  background: none;
+  outline: none;
+  border: 0px none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 5px 10px;
+  transition: 1s;
+  text-decoration:solid;
+
+}
+
+/* .btn :hover{
+  background: #b5b6b6;
+  text-decoration: dashed;
+} */
+
+button:hover{
+  background: #2d7474;
+  text-decoration: dashed;
+  color: white;
+}
+
+.Img{
+  position: absolute;
+  display: flex;
+  margin-left: 572px;
+}
+
+.flipped {
+  transform: scaleX(-1);
+}
+
+
+
+.Rectangle1{
+
+  z-index: 1;
+  opacity: .3;
+
+  /* width: 211.441px;
+  height: 529.715px; */
+  transform: rotate(4.817deg);
+  margin-left: 30px;
+  flex-shrink: 0;
+  height: 95%;
+
+  stroke-width: 1px;
+  stroke: #FFF;
+}
+
+
+.Rectangle2{
+  z-index: 1;
+  opacity: .3;
+
+  /* position: relative; */
+  /* width: 211.441px;
+  height: 529.715px;*/
+  transform: rotate(-4.889deg);
+  margin-left: -160px;
+  height: 95%;
+  flex-shrink: 0;
+  stroke-width: 0px;
+  stroke: #FFF;
+}
+
+.photo{
+
+  width: 469px;
+  height: 594px;
+  flex-shrink: 0;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: -130px;
+  z-index: 3;
+  opacity: 1;
+
+
+  transition: transform .8s ease-in-out;
+  /* transform-style: preserve-3d; */
+
+  /* transform: rotateY(0deg) translateZ(1px); Add translateZ(1px) */
+
+  /* height: 200px;
+  width: 200px; */
+}
+
+.photo:not(.flipped) {
+  transform: rotateY(0deg);
+}
+
+.photo.flipped {
+  transform: rotateY(0deg) translateZ(1px); /* Add translateZ(1px) */
+}

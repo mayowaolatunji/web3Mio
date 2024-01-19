@@ -1,0 +1,67 @@
+.portfolioContainer {
+  position: absolute;
+
+  margin-top: 690px;
+  width: 1440px;
+  height: 590px;
+  background-color: none;
+
+}
+
+.header {
+  margin-top: -70px;
+  padding-top: 2px;
+  background: none;
+  height: 55px;
+  border: 1px solid rgb(5, 5, 5);
+  color: rgb(82, 80, 80);
+  font-family: Lora;
+
+
+  box-shadow: 1px 2px 5px #3b413f;
+}
+
+.header h2 {
+  margin-top: 14px;
+  margin-left: 50px;
+  position: absolute;
+  font-family: Lora;
+
+}
+
+
+.line {
+  background: rgb(68, 64, 64);
+  height: 1.5px;
+  margin-top: 30px;
+  padding: 0px;
+  width: 250px;
+}
+.fortfolioHead {
+  margin-top: -33px;
+  display: flex;
+  gap: 300px;
+  margin-left: 350px;
+  font-size: 17px;
+  color: rgb(196, 195, 195);
+  font-family: Lora;
+
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+
+.active{
+  display: block;
+  color: white;
+
+}
