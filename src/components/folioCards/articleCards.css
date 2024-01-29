@@ -1,7 +1,9 @@
 .folio{
   display: block;
-  color: rgb(180, 178, 178);
+  color: rgb(255, 253, 253);
   gap: 20px;
+  background: rgb(82, 82, 136);
+
 }
 
 .card1{
@@ -10,8 +12,9 @@
   background: none;
   padding: 5px;
   border-radius: 5px;
-  color: rgb(161, 158, 158);
+  color: rgb(248, 248, 248);
     gap: 50px;
+  margin-left: 20px;
 
 }
 
@@ -21,18 +24,21 @@
   background: none;
   padding: 5px;
   border-radius: 5px;
-  color: rgb(161, 158, 158);
+  color: rgb(253, 252, 252);
   gap: 50px;
+    margin-left: 20px;
+
 
 }
 .card3{
   display: flex;
   margin-top: -20px;
-  background: none;
+  background: rgb(82, 82, 136);
   padding: 5px;
   border-radius: 5px;
-  color: rgb(161, 158, 158);
+  color: rgb(250, 248, 248);
   gap: 50px;
+  margin-left: 20px;
 
 }
 
@@ -47,7 +53,7 @@ h4{
   margin-top: 20px;
   width: 600px;
   height: 300px;
-  box-shadow: 1px 2px 3px ;
+  box-shadow: 2px 3px 5px black
 }
 
 .cardText .head{

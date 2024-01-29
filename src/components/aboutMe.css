@@ -1,7 +1,7 @@
 .About{
     position: absolute;
 
-    margin-top: 1750px;
+    margin-top: 1780px;
     color: rgb(255, 255, 255);
     background: none;
     width: 1440px;
@@ -9,13 +9,13 @@
 }
 
 .aboutHead{
-    background-color: rgb(187, 255, 0);
+    background-color: rgb(252, 252, 252);
     height: 50px;
     margin-top: -20px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    box-shadow: -1px 2px 1px rgb(94, 93, 93);
+    box-shadow: -1px 2px 1px rgb(124, 129, 141);
     opacity: 1;
 }
 
@@ -27,7 +27,7 @@
     font-weight: 5000;
     color: rgb(10, 9, 9);
     padding-top: 15px;
-    text-shadow: 2px 0px 3px rgb(248, 246, 246);
+    text-shadow: 2px 1px 3px rgb(46, 50, 56);
 }
 
 
