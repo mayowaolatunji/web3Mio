@@ -9,7 +9,7 @@
 }
 
 .aboutHead{
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(8, 8, 8);
     height: 50px;
     margin-top: -20px;
     align-items: center;
@@ -25,7 +25,7 @@
     margin-top: 20px;
     font-size: 1.5rem;
     font-weight: 5000;
-    color: rgb(10, 9, 9);
+    color: rgb(105, 100, 100);
     padding-top: 15px;
     text-shadow: 2px 1px 3px rgb(46, 50, 56);
 }

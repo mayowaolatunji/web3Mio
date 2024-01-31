@@ -101,6 +101,11 @@
 
 }
 
+.btn img{
+  height: 22px;
+  margin-left: -5px;
+}
+
 /* .btn :hover{
   background: #b5b6b6;
   text-decoration: dashed;

@@ -7,6 +7,7 @@ import Rectangle1 from './assets/Rectangle1.svg';
 import Rectangle2 from './assets/Rectangle2.svg';
 import Photo from './assets/photo.png';
 import Photo1 from './assets/photo1.png';
+import Telegram from './assets/telegram.png';
 
 function Header() {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -52,6 +53,7 @@ function Header() {
 
           <div className="btn">
             <button>Email Me</button>
+            <img src={Telegram} alt="" />
           </div>
         </div>
 
