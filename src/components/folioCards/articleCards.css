@@ -2,7 +2,8 @@
   display: block;
   color: rgb(255, 253, 253);
   gap: 20px;
-  background: rgb(82, 82, 136);
+  /* background: rgb(82, 82, 136); */
+  background: rgb(136, 136, 167);
 
 }
 
@@ -33,7 +34,7 @@
 .card3{
   display: flex;
   margin-top: -20px;
-  background: rgb(82, 82, 136);
+  /* background: rgb(82, 82, 136); */
   padding: 5px;
   border-radius: 5px;
   color: rgb(250, 248, 248);
@@ -50,7 +51,8 @@ h4{
 }
 
 .title{
-  color: #000000;
+  color: rgb(52, 50, 73);
+;
   font-weight: 1000;
   margin-left: 10px;
 }
@@ -73,8 +75,8 @@ h4{
 .cardText{
   background: #1B1919; 
   padding: 0px;
-  margin-bottom: -3px;   
-  margin-top: -3px;   
+  margin-bottom: -5px;   
+  margin-top: -5px;   
 
 }
 
@@ -87,14 +89,20 @@ h4{
 }
 
 .head h4{
+  color: rgb(150, 150, 175);
   font-size: 1em;
-  background-color: #000000;
+  /* background: rgb(82, 82, 136); */
   padding: 5px;
   margin-top: 15px;
+  margin-left: 20px;
+  padding: 5px;
+  text-decoration: underline;
+  
 }
 
 .cardText img{
   height: 43px;
+  display: none;
   
 }
 
