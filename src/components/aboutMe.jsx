@@ -35,7 +35,7 @@ function aboutMe() {
 
         <div className="aboutText2">
           <div className="TextHead">
-            <img src={Ellipse1} alt="" />
+            <img src={Ellipse3} alt="" />
             <h3>Skills & Technologies</h3>
           </div>
 

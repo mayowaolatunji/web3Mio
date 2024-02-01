@@ -3,7 +3,7 @@
 
     margin-top: 1780px;
     color: rgb(255, 255, 255);
-    background: image("./folioCards/images/inkon.jpeg");
+    background: url('./folioCards/images/flat-mountains.svg');
     width: 1440px;
     height: 550px;
 }
@@ -15,7 +15,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    box-shadow: -1px 2px 1px rgb(124, 129, 141);
+    box-shadow: -1px 2px 1px rgb(82, 82, 136) ;
     opacity: 1;
 }
 
@@ -44,8 +44,27 @@ p{
     margin-left: 70px;
 }
 
+.aboutText1{
+        padding-top: 5px;
+
+    margin-left: 60px;
+    border: 1px solid rgb(207, 205, 205);
+    background: linear-gradient(45deg, #000000,rgb(82, 82, 136), #000000);
+    border-radius: 10px;
+    opacity: .8;
+}
 .aboutText2{
-    padding-right: 120px;
+    padding-top: 5px;
+    padding-right: 10px;
+    /* background: -moz-linear-gradient(white, rgb(201, 65, 201), black); */
+    background: linear-gradient(45deg, #000000,rgb(82, 82, 136), #000000);
+    opacity: .8;
+    height: 380px;
+    width: 1150px;
+    margin-right: 250px;
+    border-radius: 10px;
+    border: 1px solid rgb(236, 233, 233);
+    box-shadow: -3px 2px 3px rgb(15, 15, 15);
 }
 
 img{
