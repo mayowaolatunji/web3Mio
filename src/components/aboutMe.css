@@ -3,7 +3,7 @@
 
     margin-top: 1780px;
     color: rgb(255, 255, 255);
-    background: none;
+    background: image("./folioCards/images/inkon.jpeg");
     width: 1440px;
     height: 550px;
 }
@@ -42,6 +42,10 @@
 
 p{
     margin-left: 70px;
+}
+
+.aboutText2{
+    padding-right: 120px;
 }
 
 img{

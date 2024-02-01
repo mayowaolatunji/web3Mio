@@ -100,7 +100,7 @@ function portfolioCards() {
               types such as IZKs (Interactive Zero-Knowledge), NIZKs
               (Non-Interactive Zero-Knowledge), SNARKs (Succinct Non-Interactive
               Arguments of Knowledge), and STARKs (Scalable Transparent
-              Arguments of Knowledge). It demystifies these cryptographic
+              Arguments of Knowledge). <br /><br />It demystifies these cryptographic
               marvels, providing a technical yet accessible overview of their
               functionalities and applications in blockchain security.
             </p>

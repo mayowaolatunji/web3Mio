@@ -44,7 +44,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  transition: 2s;
 }
+
+
 
 .text2, .text3, .text4{
   display: block;

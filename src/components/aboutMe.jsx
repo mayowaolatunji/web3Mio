@@ -3,6 +3,9 @@ import React from 'react'
 import './aboutMe.css'
 
 import Ellipse3 from "./folioCards/images/Ellipse 3 (3).svg";
+import Ellipse2 from "./folioCards/images/Ellipse 3 (2).svg";
+import Ellipse1 from "./folioCards/images/Ellipse 3 (1).svg";
+import Inkon from "./folioCards/images/inkon.jpeg";
 
 
 function aboutMe() {
@@ -21,7 +24,7 @@ function aboutMe() {
 
           <p>
             My experince in the web3 rabbit hole started with a leap into web3
-            Research & content <br /> writing 4 years back. However my
+            Research & content writing 4 years back. However my
             background in Process engineering and Software development fostered
             my interest into technical communications. <br />
             This array of conscious choices has equiped me, over the yesrs, with
@@ -32,7 +35,7 @@ function aboutMe() {
 
         <div className="aboutText2">
           <div className="TextHead">
-            <img src={Ellipse3} alt="" />
+            <img src={Ellipse1} alt="" />
             <h3>Skills & Technologies</h3>
           </div>
 
@@ -47,7 +50,7 @@ function aboutMe() {
             source Control, AP Style, Knowledge-base Management, intuitive UX
             writing, on-chain & 0ff-chain data analysis. <br /> <br />
   
-            Languages & Frameworks: HTML, Javascript, React, Solidity GraphQL,
+            Languages & Frameworks: Javascript, React, Solidity GraphQL, Python, 
             REST, Github/Gitbook, Markdown.
           </p>
         </div>
