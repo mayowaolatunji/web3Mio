@@ -45,7 +45,8 @@ p{
 }
 
 .aboutText1{
-        padding-top: 5px;
+        padding-top: 10px;
+    padding-right: 15px;
 
     margin-left: 60px;
     border: 1px solid rgb(207, 205, 205);
@@ -54,14 +55,14 @@ p{
     opacity: .8;
 }
 .aboutText2{
-    padding-top: 5px;
+    padding-top: 10px;
     padding-right: 10px;
     /* background: -moz-linear-gradient(white, rgb(201, 65, 201), black); */
     background: linear-gradient(45deg, #000000,rgb(82, 82, 136), #000000);
     opacity: .8;
     height: 380px;
-    width: 1150px;
-    margin-right: 250px;
+    width: 1550px;
+    margin-right: 40px;
     border-radius: 10px;
     border: 1px solid rgb(236, 233, 233);
     box-shadow: -3px 2px 3px rgb(15, 15, 15);
