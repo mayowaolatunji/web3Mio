@@ -1,11 +1,13 @@
 .nav{
-    margin-top: 00px;
+    margin-top: -40px;
     display: inline-flex;
     padding: 10px;
-    margin-left: -100px;
+    margin-left: -45px;
     justify-content: center;
     align-items: center;
     gap: 100px;    
+    width: 100%;
+
 }
 
 
@@ -14,8 +16,9 @@
  padding: 0px 334px 0px 23px;
  justify-content: center;
  align-items: center;
- gap: 80px;
+ gap: 70px;
  margin-right: 0px;
+ 
 
 }
 

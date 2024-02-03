@@ -77,7 +77,7 @@ h4{
 .cardText{
   background: transparent; 
   padding: 0px;
-  margin: -5px -5px -5px -30px; 
+  margin: -5px -5px -5px 20px; 
   justify-content: start;  
 
 }
@@ -125,7 +125,7 @@ h4{
   box-shadow: 2px 1px 3px rgb(19, 18, 18);
   color: white;
   font-weight: 600;
-  margin-left: 70px;
+  margin-left: 50px;
   transition: .8s;
 
 }

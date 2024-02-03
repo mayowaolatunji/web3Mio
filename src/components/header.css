@@ -1,5 +1,5 @@
 .container{
-  width: 1440px;
+  width: 100%;
   height: 676px;
   
   flex-shrink: 0;
@@ -20,7 +20,7 @@
 
   display: flex;
   background: none;
-  margin: 80px 0px 30px 50px;
+  margin-left: 0px;
   width: 100%;
 }
 
@@ -36,7 +36,7 @@
   position: relative;
     width: 300px;
     height: 2.5px;
-    left: -50.5px;
+    left: 0px;
     flex-shrink: 4;
     stroke-width: 2px;
     stroke: #ebebeb;
@@ -47,6 +47,7 @@
 
 .content{
   color: #FFF;
+  margin-left: 50px;
 
   font-family: Inter;
   font-size: 17px;
@@ -116,10 +117,10 @@
   color: white;
 }
 
-.Img{
+.Img{margin-top: 64.5px;
   position: absolute;
   display: flex;
-  margin-left: 572px;
+  margin-left: 552px;
 }
 
 .flipped {

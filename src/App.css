@@ -1,8 +1,9 @@
 .container {
-    position: absolute;
-    background: #9e884c;
-    width: 1040px;
-    height: 367px;
+    position: relative;
+    /* background:; */
+    /* margin-left: px; */
+    width: 100%;
+    height: 2373px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 0.4fr 0.8fr 0.4fr 0.2fr ;
