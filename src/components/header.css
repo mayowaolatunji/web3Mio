@@ -117,10 +117,12 @@
   color: white;
 }
 
-.Img{margin-top: 64.5px;
+.Img{
+  margin-top: 67px;
+  left: 780px;
   position: absolute;
   display: flex;
-  margin-left: 552px;
+  margin-right: 2px;
 }
 
 .flipped {
