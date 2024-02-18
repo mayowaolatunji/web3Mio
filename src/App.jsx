@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./app.css";
+import "./App.css";
 
 import Header from "./components/header.jsx";
 import SkillsPage from "./components/skillsPage.jsx";
