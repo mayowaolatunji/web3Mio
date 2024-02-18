@@ -2,7 +2,7 @@ import React from 'react'
 
 import './footer.css'
 
-import LinkedIn from './assets/linkedIn.svg';
+import LinkedIn from './assets/LinkedIn.svg'
 import Medium from "./assets/Medium.svg";
 import Twitter from "./assets/X(Twitter).svg";
 
